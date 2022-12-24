@@ -29,7 +29,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local('BG Image/bg7.jpg')
+add_bg_from_local('bg7.jpg')
 
 movies = pickle.load(open('movies.pkl', 'rb'))
 movie_list = movies['title'].values
